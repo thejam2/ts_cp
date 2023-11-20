@@ -1,7 +1,6 @@
 # ts_cp
 
 ### 인덱싱
-
 ```
 //객체
 var user = {
@@ -23,4 +22,20 @@ interface SalaryMap {
 var salary: SalaryMap = {
   junior: 100
 };
+```
+### enum
+```
+enum Direction {
+  Up,      //0
+  Down,    //1
+  Left,    //2
+  Rigtht,  //3
+}
+
+enum Direction {
+  Up = 10,
+  Down,    //11
+  Left,    //12
+  Rigtht,  //13
+}
 ```
