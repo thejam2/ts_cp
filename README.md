@@ -1,6 +1,6 @@
 # ts_cp
 
-### 인덱싱
+## 인덱싱
 ```
 //객체
 var user = {
@@ -23,7 +23,7 @@ var salary: SalaryMap = {
   junior: 100
 };
 ```
-### enum
+## enum
 
 #### 기본 0, 자동 증가
 ```
@@ -61,4 +61,4 @@ enum Answer{
 }
 ```
 
-### 제네릭
+## 제네릭
