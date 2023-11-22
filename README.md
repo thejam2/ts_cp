@@ -70,3 +70,5 @@ function getText<T>(text: T): T {
 getText<string>('hi'); //hi
 getText<number>(10); //10
 ```
+
+### extend
