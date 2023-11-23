@@ -71,4 +71,10 @@ getText<string>('hi'); //hi
 getText<number>(10); //10
 ```
 
-### extend
+### extends
+```
+//타입 제약
+function getText<T extends string|number|boolean>(text: T): T {
+ return text;
+}
+```
