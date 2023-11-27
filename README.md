@@ -78,3 +78,5 @@ function getText<T extends string|number|boolean>(text: T): T {
  return text;
 }
 ```
+
+### 타입 추론
