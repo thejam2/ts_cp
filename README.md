@@ -80,3 +80,4 @@ function getText<T extends string|number|boolean>(text: T): T {
 ```
 
 ### 타입 추론
+타입 추론이란, 개발자가 굳이 변수 선언할때 타입을 쓰지않아도 컴파일이 스스로 판단해서 타입을 넣어주는 것.
