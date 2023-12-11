@@ -86,3 +86,12 @@ function getText<T extends string|number|boolean>(text: T): T {
 직접 타입 명시하여 타입 강제
 
 ## 타입가드
+여러개의 타입으로 지정된 값을 특정 위치에서 원하는 타입으로 구분하는 것.
+```
+function updateInput(textInput : number | string | boolean) {
+  //타입가드
+  if (typeof textInput === 'number') {
+    textInput
+  }
+}
+```
