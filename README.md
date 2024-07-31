@@ -95,3 +95,6 @@ function updateInput(textInput : number | string | boolean) {
   }
 }
 ```
+
+## 타입 호환
+서로 다른 타입이 있을때 특정 타입이 다른 타입에 포함되는지를 의미.
