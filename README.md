@@ -98,3 +98,7 @@ function updateInput(textInput : number | string | boolean) {
 
 ## 타입 호환
 서로 다른 타입이 있을때 특정 타입이 다른 타입에 포함되는지를 의미.
+
+## 타입 모듈
+모듈은 프로그래밍 관점에서 특정 기능을 갖는 작은 단위의 코드
+#### import, export, import type(타입명시)
