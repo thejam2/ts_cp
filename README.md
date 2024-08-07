@@ -102,3 +102,7 @@ function updateInput(textInput : number | string | boolean) {
 ## 타입 모듈
 모듈은 프로그래밍 관점에서 특정 기능을 갖는 작은 단위의 코드
 #### import, export, import type(타입명시)
+
+## 유틸리티 타입
+이미 정의되어 있는 타입 구조를 변경하여 재사용하고 싶을 떄 사용
+Pick, Omit, Partial, Exclude, Record
