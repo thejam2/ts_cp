@@ -180,4 +180,10 @@ npx typescript tsc --init
 **/ : 해당 폴더의 모든 하위 폴더
 ```
 - 등등
-#### 컴파일러 옵션 : target, lib, module, strict, noEmitOnError 등
+#### 컴파일러 옵션
+- target : 컴파일 결과물이 어떤 JS 문법으로 변환될지 정의하는 옵션
+- lib : 브라우저 DOM API나 JS 내장 API를 위해 선언해 놓은 타입 선언 파일
+- module
+- strict : 타입 체크 수준 정의
+- noEmitOnError
+- 등등
