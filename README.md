@@ -157,5 +157,27 @@ npx typescript tsc --init
 ```
 
 ### 설정 옵션
-- 루트 옵션 : files, extends, compilerOptions, include 등
-- 컴파일러 옵션 : target, lib, module, strict, noEmitOnError 등
+#### 루트 옵션
+- files
+```
+컴파일 대상 파일 목록
+//tsconfig.json
+{
+  "files" : ["index.ts", "main.ts"]
+}
+```
+- extends : 설정 파일을 공통으로 사용하거나 빌드용 설정을 분리하고 싶을때 사용
+- compilerOptions
+- include
+```
+컴파일 대상 파일의 패턴 지정
+//tsconfig.json
+{
+  "include" : ["src/*", "tests/*.spec.ts"]
+}
+
+* : 디렉터리 구분자를 제외한 모든 파일 이름
+**/ : 해당 폴더의 모든 하위 폴더
+```
+- 등등
+#### 컴파일러 옵션 : target, lib, module, strict, noEmitOnError 등
